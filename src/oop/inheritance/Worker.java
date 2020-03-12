@@ -1,4 +1,4 @@
 package oop.inheritance;
 
-public class Worker {
+public class Worker extends TemporaryResident {
 }
