@@ -1,8 +1,9 @@
 package oop.inheritance;
 
-public class Company extends ITaxable {
+public class Company implements ITaxable {
+
     @Override
     public float getIncomeTaxRate() {
-        return super.getIncomeTaxRate();
+        return 0;
     }
 }

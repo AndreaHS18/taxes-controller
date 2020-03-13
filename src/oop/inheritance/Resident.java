@@ -5,4 +5,9 @@ public class Resident implements  IResident {
     public float getTaxDiscountRate() {
         return 0;
     }
+
+    @Override
+    public float getIncomeTaxRate() {
+        return 0;
+    }
 }

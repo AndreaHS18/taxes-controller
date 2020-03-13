@@ -1,8 +1,5 @@
 package oop.inheritance;
 
-public class ITaxable {
-    public float getIncomeTaxRate()
-    {
-        return 0;
-    }
+public interface ITaxable {
+    float getIncomeTaxRate();
 }

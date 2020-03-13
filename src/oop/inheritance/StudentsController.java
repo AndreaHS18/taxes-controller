@@ -1,4 +1,5 @@
 package oop.inheritance;
 
-public class StudentsController {
+public class StudentsController extends Student {
+
 }
